@@ -365,7 +365,7 @@ ENDTEXT
       text.collect { |t|
         if first_line
           first_line = false
-          Color.red(t)
+          Color.yellow(t)
         else
           Color.cyan(t)
         end
